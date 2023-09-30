@@ -719,13 +719,12 @@ try:
     toute_fin.click()
     time.sleep(3)
     
-    #Voici enfin le bouton de souscription final:
-    findujeu = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'wlp-join-prime-button'))).click()
 
 except Exception as e:
     print(f"Une erreur s'est produite : {str(e)}")
 
-
+#Voici enfin le bouton de souscription final:
+findujeu = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'wlp-join-prime-button'))).click()
 
 driver.quit()
 
