@@ -41,4 +41,4 @@ Pour le seuil en euro c'est plus simple à comprendre, si un des produits passe 
 Dans le cadre de choix de ces seuils, il faut saisir le pourcentage seuil dans prctchoisi, et le prix seuil dans 
 
 
-![imagealerte]([url=https://zupimages.net/viewer.php?id=23/39/qv1g.png][img]https://zupimages.net/up/23/39/qv1g.png[/img][/url])
+![imagealerte](<a href="https://zupimages.net/viewer.php?id=23/39/qv1g.png"><img src="https://zupimages.net/up/23/39/qv1g.png" alt="" /></a>)
