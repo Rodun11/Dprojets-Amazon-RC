@@ -23,4 +23,7 @@ Voici le lien pour installer le geckodriver: https://github.com/mozilla/geckodri
 
 # Projet d'automatisation d'alertes mails:
 
-Il nous faudra ici, tout d'abord chercher des liens de produits à inserer 
+Il nous faudra ici, tout d'abord chercher des liens de produits à inserer dans la list nommée URLS que l'on voit au tout début.
+
+
+Pour 
