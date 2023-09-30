@@ -379,7 +379,7 @@ try:
     bouton_30j.click()
     
     bouton_sinscrire = driver.find_element(By.ID, 'createAccountSubmit')
-    time.sleep(6)
+    time.sleep(5.3)
     bouton_sinscrire.click()
     
     CDS_NOMS = driver.find_element(By.ID, 'ap_customer_name')
@@ -387,11 +387,11 @@ try:
     CDS_NOMS.send_keys(lesdeux0)
     
     CDS_mail = driver.find_element(By.ID, 'ap_email')
-    time.sleep(7)
+    time.sleep(6)
     CDS_mail.send_keys(e_mail0)
     time.sleep(4)
     CDS_motdp = driver.find_element(By.ID, 'ap_password')
-    time.sleep(8)
+    time.sleep(5)
     CDS_motdp.send_keys(mdp0)
     
     time.sleep(4)
