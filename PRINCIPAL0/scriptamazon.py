@@ -1,24 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 21 19:29:12 2023
 
-@author: rodibaran
 """
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 21 01:40:04 2023
-
-@author: rodibaran
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 18 16:03:08 2023
-
 @author: rodibaran
 """
 
