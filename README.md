@@ -109,6 +109,7 @@ Requis: Firefox verision 118.0, et son driver geckodriver version 0.33.0
 ATTENTION: L'utilisation de ce script et de ses méthodes paraîssent largement plus risquées, qu'elles ne le sont. Cependant je ne vous oblige à rien, et si vous ne faites confiance à cette méthode, c'est tout à fait votre droit. Surtout qu'il y a peu de chances que le processus fonctionne sous VPN, il faut donc le faire en "découvert".
 
 Le script en quesion contenu dans scriptamazon.py à été optimisé dans le but d'offrir des résultats sûrs à chacune des run dudit code. 
+Si la connexion est trop faible, il y a des risques pour que la procédure ne fonctionne pas correctement.
 
 Parfois pendant les créations de comptes amazon et d'abonnement à prime, les temps d'attentes semblerons longs. Nous tenons à vous prévenir, que c'est volontaire, en effet si la saisie d'information se fait trop rapidement, amazon demande une confirmation par numero de téléphone (blocage).
 
