@@ -1,6 +1,7 @@
 # Dprojets-Amazon-RC
 Bienvenue dans notre Repository Github, vous y trouverez 3 projets distiguables, tous sur le thème Amazon:
--Un projet de machine learning "..."
+-Un projet de machine learning pour la prédiction de futurs prix, avec le script Projet ML wirtz.py
+
 
 -Un projet d'automatisation d'alertes mails de mail qui comprend les deux scripts, "amazon_2access.py", et "machine_mail.py"
 
