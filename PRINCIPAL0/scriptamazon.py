@@ -423,7 +423,7 @@ time.sleep(2)
 driver.switch_to.window(driver.window_handles[1])
 
 
-time.sleep(5)
+time.sleep(3)
 
 #Ici pour récuperer le code de verifications, nous avons mis en place un try/except, car selon la vitesse
 #de connecion, des objets(des messages de configuration du mail)  viennent se placer sur l'écran et empêchent d'accéder
