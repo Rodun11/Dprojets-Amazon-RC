@@ -4,7 +4,9 @@ Bienvenue dans notre Repository Github, vous y trouverez 3 projets distiguables,
 
 -Un projet d'automatisation d'alertes mails de mail qui comprend les deux scripts, "amazon_2access.py", et "machine_mail.py"
 
--Enfin, un projet d'automatisation de création de comptes Prime, usant du script "scriptamazon".
+-Enfin, un projet d'automatisation de création de comptes Prime, usant du script "scriptamazon", voila une video de son usage:
+
+https://youtu.be/hoX6xyMAdQM
 
 
 # Requirements
@@ -97,6 +99,8 @@ Si on veut que le script se lance automatiquement toutes les semaines, pour cons
 Sur windows c'est plus difficile, il faut le programmer dans le planificateur de tâches.(Nous pensions au départ que les commandes étaient les mêmes que pour mac).
 
 # Projet de création de comptes primes automatiques:
+
+Vidéo de l'usage: https://youtu.be/hoX6xyMAdQM
 
 Requis: Firefox verision 118.0, et son driver geckodriver version 0.33.0
 
