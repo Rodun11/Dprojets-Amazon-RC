@@ -428,41 +428,21 @@ time.sleep(2)
 #Ici pour récuperer le code de verifications, nous avons mis en place un try/except, car selon la vitesse
 #de connecion, des objets(des messages de configuration du mail)  viennent se placer sur l'écran et empêchent d'accéder
 #au HTML du mail, que l'on veut scrapper avec BS4. Le except est fait pour les fermer, puis retourner chercher le code.
-
 try:
-    WebDriverWait(driver, 50).until(EC.invisibility_of_element_located((By.ID, 'loadingScreen')))
-    element = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.XPATH, "//span[contains(text(),'Vérifiez votre nouveau compte Amazon')]")))
-    element.click()
-    
-    WebDriverWait(driver, 50).until(lambda driver: driver.find_element(by=By.CSS_SELECTOR, value='.x_otp'))
-    
-    html = driver.page_source  
-       
-    soup = BeautifulSoup(html, 'html.parser')
-  
-    otp_element = soup.find('p', class_='x_otp')
-    
-    if otp_element:
-    
-        otp_code = otp_element.text
-        print(f"Code de vérification : {otp_code}")
-    
-    else:
-        print("Élément de code de vérification non trouvé dans le HTML de l'e-mail.")
-    
-except:
-
+    try:
+        WebDriverWait(driver, 50).until(EC.invisibility_of_element_located((By.ID, 'loadingScreen')))
+    except: pass
     
     time.sleep(1)
-    jspr = WebDriverWait(driver, 70).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ms-Button.ms-Button--primary.Yl7JD')))
+    jspr = WebDriverWait(driver, 150).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ms-Button.ms-Button--primary.Yl7JD')))
     time.sleep(3)
     jspr.click()
     time.sleep(1)
     
     mbx = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ms-Button.ms-Button--primary.E8L0k")))
     time.sleep(3)
-    
     mbx.click()
+
     element = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.XPATH, "//span[contains(text(),'Vérifiez votre nouveau compte Amazon')]")))
     element.click()
     
@@ -481,6 +461,9 @@ except:
 
     else:
         print("Élément de code de vérification non trouvé dans le HTML de l'e-mail.")
+    
+except Exception as e:
+    print(f"Une erreur s'est produite : {str(e)}")
     
     
     
