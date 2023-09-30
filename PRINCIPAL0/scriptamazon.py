@@ -228,7 +228,7 @@ time.sleep(2)
 driver.maximize_window()
 time.sleep(2)
 try:
-    # Attendez un court instant pour permettre au contenu de la page de se charger
+    
     driver.implicitly_wait(10)
     
 
@@ -324,10 +324,10 @@ try:
     
     time.sleep(2)
     
-    "CAPTCHA" #ICI, à cet emplacement précis se trouve un captcha à résoudre en moins de 100 secondes. 
+    "CAPTCHA" #ICI, à cet emplacement précis se trouve un captcha à résoudre en moins de 120 secondes. 
     
     try:
-        onspr = WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ms-Button.ms-Button--primary')))
+        onspr = WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ms-Button.ms-Button--primary')))
         time.sleep(2)
         onspr.click()
         time.sleep(1)
@@ -450,36 +450,22 @@ try:
     else:
         print("Élément de code de vérification non trouvé dans le HTML de l'e-mail.")
     
-except SETimeoutException:
+except:
 
-    try:
-        WebDriverWait(driver, 50).until(EC.invisibility_of_element_located((By.ID, 'loadingScreen')))
-        
-        time.sleep(2)
-        jspr = WebDriverWait(driver, 70).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ms-Button.ms-Button--primary.Yl7JD')))
-        time.sleep(3)
-        jspr.click()
-        time.sleep(1)
-        
-        mbx = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ms-Button.ms-Button--primary.E8L0k")))
-        time.sleep(3)
-        
-        mbx.click()
-        element = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.XPATH, "//span[contains(text(),'Vérifiez votre nouveau compte Amazon')]")))
-        element.click()
-        
-    except SETimeoutException:  
     
-        mbx = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ms-Button.ms-Button--primary.E8L0k")))
-        time.sleep(3)
-        mbx.click()
-        
-        element = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.XPATH, "//span[contains(text(),'Vérifiez votre nouveau compte Amazon')]")))
-        element.click()
-        
-    except Exception as e:
-        print(f"Une erreur s'est produite : {str(e)}")
-        
+    time.sleep(1)
+    jspr = WebDriverWait(driver, 70).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ms-Button.ms-Button--primary.Yl7JD')))
+    time.sleep(3)
+    jspr.click()
+    time.sleep(1)
+    
+    mbx = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ms-Button.ms-Button--primary.E8L0k")))
+    time.sleep(3)
+    
+    mbx.click()
+    element = WebDriverWait(driver, 50).until(EC.presence_of_element_located((By.XPATH, "//span[contains(text(),'Vérifiez votre nouveau compte Amazon')]")))
+    element.click()
+    
     WebDriverWait(driver, 50).until(lambda driver: driver.find_element(by=By.CSS_SELECTOR, value='.x_otp'))
 
     html = driver.page_source  
@@ -495,9 +481,6 @@ except SETimeoutException:
 
     else:
         print("Élément de code de vérification non trouvé dans le HTML de l'e-mail.")
-            
-except Exception as e:
-    print(f"Une erreur s'est produite : {str(e)}")
     
     
     
