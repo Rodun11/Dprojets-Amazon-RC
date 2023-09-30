@@ -7,8 +7,14 @@ Bienvenue dans notre Repository Github, vous y trouverez 3 projets distiguables,
 
 # Requirements
 pip install -r requirements.txt
+
+
+
+
+
 Il faudra aussi pour le projet de création de compte prime installer firefox (version 117.0 à 118.0, au choix), et son driver geckodriver version 0.33.0
 Voici le lien pour installer le geckodriver: https://github.com/mozilla/geckodriver/releases
+
 # Projet de Machine Learning
 ...
 
