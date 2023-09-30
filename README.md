@@ -23,7 +23,7 @@ Voici le lien pour installer le geckodriver: https://github.com/mozilla/geckodri
 
 # Projet d'automatisation d'alertes mails:
 
-Il nous faudra ici, tout d'abord chercher des liens de produits à inserer dans la list nommée URLS que l'on voit au tout début.
+Il nous faudra ici, tout d'abord dans le premier script (amazon_2access.py) chercher des liens de produits à inserer dans la list nommée URLS que l'on voit au tout début.
 
 
 Ensuite il faut mettre ses HEADERS personnels, dans headers.
@@ -46,16 +46,25 @@ Si on ne veut pas utiliser de prix seuil, on met set_price = 0.
 Si on ne veut pas de pourcentage seuil, on met prctsaisie = 100.
 
 
-![imagealerte](<a href="https://zupimages.net/viewer.php?id=23/39/qv1g.png"><img src="https://zupimages.net/up/23/39/qv1g.png" alt="" /></a>)
+<a href="https://zupimages.net/viewer.php?id=23/39/qv1g.png"><img src="https://zupimages.net/up/23/39/qv1g.png" alt="" /></a>
 
 
 
 
-Enfin il ne reste plus qu'à mettre ses information de mail (de "x" à "y"), et les informations de connexion de x.
+Enfin, dans machine_mail, il ne reste plus qu'à mettre ses information de mail dans le script (de "x" à "y"), et les informations de connexion de x.
 
 
 L'adresse mail x a étée crée spécialement pour l'occasion, et je conseille son usage. Donc il ne faut modifier que le destinataire en mettant son adresse mail. À la place de rboadrian@icloud.com
 
-(<a href="https://zupimages.net/viewer.php?id=23/39/ve3u.png"><img src="https://zupimages.net/up/23/39/ve3u.png" alt="" /></a>)
+<a href="https://zupimages.net/viewer.php?id=23/39/ve3u.png"><img src="https://zupimages.net/up/23/39/ve3u.png" alt="" /></a>
+
+
+
+Pour faire run le script il faut simplement run le fichier amazon2access.py, qui fera lui-même appel au second.
+
+
+Si on veut que le script se lance automatiquement toutes les semaines, pour consulter les prix, sur mac et linux, nous pouvons saisir la commande suivante dans le terminal shell:     crontab -e    puis  0 0 * * 0 /path/to/your/script
+
+Sur windows c'est plus difficile, il faut le programmer dans le planificateur de tâches.(Nous pensions au départ que les commandes étaient les mêmes que pour mac).
 
 
