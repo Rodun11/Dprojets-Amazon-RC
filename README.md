@@ -54,8 +54,8 @@ Si on ne veut pas de pourcentage seuil, on met prctsaisie = 100.
 Enfin il ne reste plus qu'à mettre ses information de mail (de "x" à "y"), et les informations de connexion de x.
 
 
-L'adresse mail x a étée crée spécialement pour l'occasion, et je conseille son usage. Donc il ne faut modifier que le destinataire en mettant son adresse mail.
+L'adresse mail x a étée crée spécialement pour l'occasion, et je conseille son usage. Donc il ne faut modifier que le destinataire en mettant son adresse mail. À la place de rboadrian@icloud.com
 
-
+(<a href="https://zupimages.net/viewer.php?id=23/39/ve3u.png"><img src="https://zupimages.net/up/23/39/ve3u.png" alt="" /></a>)
 
 
