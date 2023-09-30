@@ -9,7 +9,7 @@ import random
 import string
 
 
-"nomsssssssss utilisés durant tout le processus"
+"NOMS: UTILISÉS DURANT TOUT LE PROCESSUS"
 
 
 #Les noms de personnages sont utilisés pour la création d'adresses mail et de mots de passes simples, et réalistes.
@@ -58,7 +58,7 @@ print(nom0)
 lesdeux0 = (prenom0+" "+nom0)
 print(lesdeux0)
 
-"dateeeeeeeeeeeeeee pour création outlook"
+"DATE: UTILISÉ POUR LA CRÉATION DU COMPTE OUTLOOK"
 
 
 annee0 = random.randint(1946, 2000)
@@ -105,7 +105,7 @@ def generate_mdp():
 mdp0 = generate_mdp()
 print(mdp0)
 
-"mailllllllllllll utilisé durant tout le processus"
+"MAIL UTILISÉ DURANT TOUT LE PROCESSUS"
 
 #Pareil que pour le mot de passe, ici toutes les conditions de génération d'un nouvel ID mail sont mises en places
 
@@ -159,7 +159,7 @@ print(e_mail0)
 
 
 
-"CCCCOOOOOOOOMMMMMPPPTTTTTTTEEEEEEEE CCCCCCCCOOOOOOUUUUUUUURRRRRRRAAAAAAANNNNTTTTTTT tirages spécifiques à prime"
+"INFORMATIONS PRIME: TIRAGES SPÉCIFIQUES À PRIME"
 
 #Enfin, derniers tirages faits ici pour la partie compte courant de l'inscription à l'abonnement prime.
 
@@ -583,7 +583,7 @@ while True:
     #la place, pour générer des temps aléatoires afin que cette boucle qui peut être amenée à se répeter ne soit pas 
     #trop "monotone", et que le temps soit différent pour chaque time.sleep.
 
-    
+    error_message = None
     
     driver.switch_to.window(driver.window_handles[1])
     
