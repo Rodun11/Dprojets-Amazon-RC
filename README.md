@@ -1,5 +1,6 @@
 # Dprojets-Amazon-RC
 Bienvenue dans notre Repository Github, vous y trouverez 3 projets distiguables, tous sur le thème Amazon:
+
 -Un projet de machine learning pour la prédiction de futurs prix, avec le script Projet ML wirtz.py
 
 
