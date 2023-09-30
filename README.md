@@ -26,4 +26,16 @@ Voici le lien pour installer le geckodriver: https://github.com/mozilla/geckodri
 Il nous faudra ici, tout d'abord chercher des liens de produits à inserer dans la list nommée URLS que l'on voit au tout début.
 
 
-Pour 
+Ensuite il faut mettre ses HEADERS personnels, dans headers.
+
+
+Pour la partie de reglages de seuil, on peut choisir un seuil, qui si il est franchi par un produit donné, nous est alerté par mail.
+
+Nous avons deux choix, soit une baisse de plus d'un certain pourcentage, soit une baisse du prix sous un certain prix fixé.
+
+
+Exemple pour le pourcentage: Si le prix d'un des produits dans la liste chute de plus de 30% par rapport aux prix auquel il avait été enregistré la première fois qu'il a été run dans le code (liste URLS). Une alerte sera envoyée par mail.
+
+Pour le seuil en euro c'est plus simple à comprendre, si un des produits passe sous la valeur seuil 50euros, un mail est envoyé.
+
+Dans le cadre de choix de ces seuils, il faut saisir le pourcentage seuil dans prctchoisi, et le prix seuil dans 
