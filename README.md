@@ -6,7 +6,7 @@ Bienvenue dans notre Repository Github, vous y trouverez 3 projets distiguables,
 
 -Un projet d'automatisation d'alertes mails de mail qui comprend les deux scripts, "amazon_2access.py", et "machine_mail.py"
 
--Enfin, un projet d'automatisation de création de comptes Prime, usant du script "scriptamazon", voila une video de son usage:
+-Enfin, un projet d'automatisation de création de comptes Prime, usant du script "scriptamazon", voila une video personnelle de son usage:
 
 https://youtu.be/hoX6xyMAdQM
 
