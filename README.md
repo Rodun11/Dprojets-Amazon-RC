@@ -28,7 +28,15 @@ Après la collecte, j'ai effectué un processus de nettoyage des données pour �
 J'ai réalisé une analyse exploratoire des données en utilisant des techniques de visualisation telles que des graphiques, des histogrammes etc. Cela m'a permis de mieux comprendre la distribution des données, les tendances, les corrélations entre les variables et d'identifier les caractéristiques importantes pour la prédiction des prix. Voici les techniques que j'ai pu génerer :
 
 ![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/3d1c09e3-e874-47a2-a37d-03259919db48)
-
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/e1278b6c-a260-47d1-a319-4e9e98e71a46)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/21ae4d26-55e5-47b0-80a5-6b1e18f80793)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/0b93e24f-2d5a-4e27-859d-ce70011fdf27)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/4442d43d-9f82-43ff-868e-c8e7b377d05a)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/33b89d9a-9b5f-4e89-a3ea-2ba2f98ee852)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/19724c9c-9124-4cd9-b6c2-83228fb83692)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/37284d34-f6fb-4c81-8b22-6ada52bb0dee)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/38b96d5e-db2a-43e0-a17e-6e80254cbca1)
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/90cef2d6-87c0-40e1-85f7-b34de523df3d)
 
 J'ai créé de nouvelles caractéristiques (variable "ratings score") à partir des données existantes, par exemple en extrayant des informations à partir du texte des noms de produits.
 
