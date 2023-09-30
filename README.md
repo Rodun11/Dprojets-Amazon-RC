@@ -25,9 +25,12 @@ J'ai commencé par collecter un ensemble de données contenant des informations 
 
 Après la collecte, j'ai effectué un processus de nettoyage des données pour éliminer les valeurs manquantes, supprimer les doublons et corriger les incohérences dans les données (colonne inutile, valeurs non numériques etc...). Cela m'a permis d'obtenir un ensemble de données propre et utilisable pour la suite.
 
-J'ai réalisé une analyse exploratoire des données en utilisant des techniques de visualisation telles que des graphiques, des histogrammes etc. Cela m'a permis de mieux comprendre la distribution des données, les tendances, les corrélations entre les variables et d'identifier les caractéristiques importantes pour la prédiction des prix.
+J'ai réalisé une analyse exploratoire des données en utilisant des techniques de visualisation telles que des graphiques, des histogrammes etc. Cela m'a permis de mieux comprendre la distribution des données, les tendances, les corrélations entre les variables et d'identifier les caractéristiques importantes pour la prédiction des prix. Voici les techniques que j'ai pu génerer :
 
-J'ai créé de nouvelles caractéristiques (vairable "ratings score") à partir des données existantes, par exemple en extrayant des informations à partir du texte des noms de produits.
+![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/3d1c09e3-e874-47a2-a37d-03259919db48)
+
+
+J'ai créé de nouvelles caractéristiques (variable "ratings score") à partir des données existantes, par exemple en extrayant des informations à partir du texte des noms de produits.
 
 J'ai divisé mon ensemble de données en deux parties : un ensemble d'entraînement pour former mon modèle de prédiction et un ensemble de test pour évaluer ses performances.
 
