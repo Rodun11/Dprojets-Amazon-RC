@@ -67,4 +67,15 @@ Si on veut que le script se lance automatiquement toutes les semaines, pour cons
 
 Sur windows c'est plus difficile, il faut le programmer dans le planificateur de tâches.(Nous pensions au départ que les commandes étaient les mêmes que pour mac).
 
+# Projet de création de comptes primes automatiques:
 
+Requis: Firefox verision 118.0, et son driver geckodriver version 0.33.0
+
+ATTENTION: L'utilisation de ce script et de ses méthodes paraîssent largement plus risquées, qu'elles ne le sont. Cependant je ne vous oblige à rien, et si vous ne faites confiance à cette méthode, c'est tout à fait votre droit. Surtout qu'il y a peu de chances que le processus fonctionne sous VPN, il faut donc le faire en "découvert".
+
+Le script en quesion contenu dans scriptamazon.py à été optimisé dans le but d'offrir des résultats sûrs à chacune des run dudit code. 
+
+Parfois pendant les créations de comptes amazon et d'abonnement à prime, les temps d'attentes semblerons longs. Nous tenons à vous prévenir, que c'est volontaire, en effet si la saisie d'information se fait trop rapidement, amazon demande une confirmation par numero de téléphone (blocage).
+
+Si vous voyez apparaître cette page "sans bannière" dans la marionette, vous pouvez quitter le driver et relancer le script:
+<a href="https://zupimages.net/viewer.php?id=23/39/7nfk.png"><img src="https://zupimages.net/up/23/39/7nfk.png" alt="" /></a>
