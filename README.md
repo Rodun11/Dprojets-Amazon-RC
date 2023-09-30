@@ -18,10 +18,24 @@ Il faudra aussi pour le projet de création de compte prime installer firefox (v
 Voici le lien pour installer le geckodriver: https://github.com/mozilla/geckodriver/releases
 
 # Projet de Machine Learning
-...
 
+Voici un résumé de mon projet de machine learning pour la prédiction des prix sur Amazon, en incluant les principales étapes que j'ai réalisées :
 
+J'ai commencé par collecter un ensemble de données contenant des informations sur les produits vendus sur Amazon, notamment les caractéristiques des produits et leurs prix.
 
+Après la collecte, j'ai effectué un processus de nettoyage des données pour éliminer les valeurs manquantes, supprimer les doublons et corriger les incohérences dans les données (colonne inutile, valeurs non numériques etc...). Cela m'a permis d'obtenir un ensemble de données propre et utilisable pour la suite.
+
+J'ai réalisé une analyse exploratoire des données en utilisant des techniques de visualisation telles que des graphiques, des histogrammes etc. Cela m'a permis de mieux comprendre la distribution des données, les tendances, les corrélations entre les variables et d'identifier les caractéristiques importantes pour la prédiction des prix.
+
+J'ai créé de nouvelles caractéristiques (vairable "ratings score") à partir des données existantes, par exemple en extrayant des informations à partir du texte des noms de produits.
+
+J'ai divisé mon ensemble de données en deux parties : un ensemble d'entraînement pour former mon modèle de prédiction et un ensemble de test pour évaluer ses performances.
+
+J'ai choisi un algorithme de machine learning approprié pour la régression, tel que la régression linéaire, la forêt aléatoire. Ensuite, j'ai entraîné mon modèle sur l'ensemble d'entraînement en utilisant les caractéristiques que j'ai extraites (les prix et les notes moyennes)
+
+J'ai évalué les performances de mon modèle en utilisant des métriques telles que l'erreur quadratique moyenne (RMSE), l'erreur absolue moyenne (MAE), ou le coefficient de détermination (R²) sur l'ensemble de test. Cela m'a permis de mesurer à quel point mon modèle était capable de prédire avec précision les prix des produits.
+
+Si les performances de mon modèle n'étaient pas satisfaisantes, j'ai ajusté les hyperparamètres (comme la bariable K dans le KNN) et essayé différents algorithmes.
 
 # Projet d'automatisation d'alertes mails:
 
