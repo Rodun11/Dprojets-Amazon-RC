@@ -2,6 +2,8 @@
 import pandas as pd
 import numpy as np
 
+
+# Lien de la base : https://www.kaggle.com/datasets/lokeshparab/amazon-products-dataset
 # Charger  la base de données depuis le fichier CSV exporté
 df = pd.read_csv("C:/Users/chafi/OneDrive/Bureau/M2 DS2E/projet wirtz/Amazon-Products.csv")
 df.head()
