@@ -106,13 +106,6 @@ top = df[df['manufacturer'].isin(ten_manufact)]
 plt.figure(figsize=(8,5))
 sns.violinplot(data=top, x='ratings',bins=30)
 
-#la distribution des prix
-
-fig = px.box(top, x="actual_price",
-            hover_data= ['manufacturer','main_category','ratings'])
-
-fig.show()
-
 #Nouvelle variable : discount percentage + batons
 
 top['discount_percentage'] = np.where(top['actual_price']!=0,round((top['actual_price']-top['discount_price'])/top['actual_price'],2),0)
@@ -155,15 +148,6 @@ df.head()
 #distributions des notes
 plt.figure(figsize=(8,5))
 sns.violinplot(data=df, x='ratings',bins=30)
-
-#la distribtuion des prix actuel et et des prix reduit
-fig = px.box(df, x="actual_price",
-            hover_data= ['manufacturer','main_category','ratings'])
-fig.show()
-
-fig = px.box(df, x="discount_price",
-            hover_data= ['manufacturer','main_category','ratings'])
-fig.show()
 
 
 #distribution du pourcentage de reduction
@@ -236,9 +220,6 @@ print('R2 score (training): %.2f' % r2_score(y_train, knnreg.predict(X_train)),
       'R2 score (test) %.2f' % r2_score(y_test, y_pred),
       'MSE (test): %.2f' % mean_squared_error(y_test, y_pred), sep='\n')
 
-# Make prediction on a new observation 
-new_observation = np.array([[1, 20, 75000]])
-prediction = knnreg.predict(new_observation)
 
 #####*** Selecting the optimal value of K ****########
 training_accuracy = []
