@@ -328,7 +328,7 @@ try:
     
     try:
         onspr = WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ms-Button.ms-Button--primary')))
-        time.sleep(2)
+        time.sleep(3.5)
         onspr.click()
         time.sleep(1)
     except: pass
