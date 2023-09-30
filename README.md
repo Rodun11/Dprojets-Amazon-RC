@@ -25,7 +25,9 @@ J'ai commencé par collecter un ensemble de données contenant des informations 
 
 Après la collecte, j'ai effectué un processus de nettoyage des données pour éliminer les valeurs manquantes, supprimer les doublons et corriger les incohérences dans les données (colonne inutile, valeurs non numériques etc...). Cela m'a permis d'obtenir un ensemble de données propre et utilisable pour la suite.
 
-J'ai réalisé une analyse exploratoire des données en utilisant des techniques de visualisation telles que des graphiques, des histogrammes etc. Cela m'a permis de mieux comprendre la distribution des données, les tendances, les corrélations entre les variables et d'identifier les caractéristiques importantes pour la prédiction des prix. Voici les techniques que j'ai pu génerer :
+J'ai réalisé une analyse exploratoire des données en utilisant des techniques de visualisation telles que des graphiques, des histogrammes etc. Cela m'a permis de mieux comprendre la distribution des données, les tendances, les corrélations entre les variables et d'identifier les caractéristiques importantes pour la prédiction des prix. 
+
+Voici les techniques que j'ai pu génerer (Certains graphiques sont associés à une sous base que j'ai crée !)
 
 ![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/3d1c09e3-e874-47a2-a37d-03259919db48)
 ![image](https://github.com/Rodun11/Dprojets-Amazon-RC/assets/122920318/e1278b6c-a260-47d1-a319-4e9e98e71a46)
