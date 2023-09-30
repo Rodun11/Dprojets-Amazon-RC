@@ -1,7 +1,9 @@
 # Dprojets-Amazon-RC
 Bienvenue dans notre Repository Github, vous y trouverez 3 projets distiguables, tous sur le thème Amazon:
 -Un projet de machine learning "..."
+
 -Un projet d'automatisation d'alertes mails de mail qui comprend les deux scripts, "amazon_2access.py", et "machine_mail.py"
+
 -Enfin, un projet d'automatisation de création de comptes Prime, usant du script "scriptamazon".
 
 
