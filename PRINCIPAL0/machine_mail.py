@@ -10,17 +10,17 @@ def alert_system(product, link, price, message1="", message2=""):
     msg['From'] = email_address
     msg['To'] = 'rboadrian@icloud.com'
     msg.set_content(f"Bonjour, le prix de {product} a baissé, il est de {price} euros!\nLien : {link}\n{message1}, {message2}")
-    # Paramètres du serveur SMTP d'Outlook
+    #Paramètres serveur SMTP Outlook
     smtp_server = 'smtp.office365.com'
     smtp_port = 587
 
     try:
-        # Connexion au serveur SMTP d'Outlook
+        #Connexion au serveur SMTP d'Outlook
         server = smtplib.SMTP(smtp_server, smtp_port)
-        server.starttls()  # Utilisation de TLS pour une connexion sécurisée
+        server.starttls()  
         server.login(email_address, email_password)
 
-        # Envoi de l'e-mail
+        # Envoi d'e-mail
         server.send_message(msg)
 
         print('E-mail envoyé avec succès')
