@@ -39,3 +39,6 @@ Exemple pour le pourcentage: Si le prix d'un des produits dans la liste chute de
 Pour le seuil en euro c'est plus simple à comprendre, si un des produits passe sous la valeur seuil 50euros, un mail est envoyé.
 
 Dans le cadre de choix de ces seuils, il faut saisir le pourcentage seuil dans prctchoisi, et le prix seuil dans 
+
+
+![imagealerte](https://zupimages.net/up/23/39/qv1g.png)
