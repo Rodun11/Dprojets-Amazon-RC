@@ -38,7 +38,24 @@ Exemple pour le pourcentage: Si le prix d'un des produits dans la liste chute de
 
 Pour le seuil en euro c'est plus simple à comprendre, si un des produits passe sous la valeur seuil 50euros, un mail est envoyé.
 
-Dans le cadre de choix de ces seuils, il faut saisir le pourcentage seuil dans prctchoisi, et le prix seuil dans 
+Dans le cadre de choix de ces seuils, il faut saisir le pourcentage seuil dans prctsaisie, et le prix seuil dans set_price.
+
+Si on ne veut pas utiliser de prix seuil, on met set_price = 0. 
+
+
+Si on ne veut pas de pourcentage seuil, on met prctsaisie = 100.
 
 
 ![imagealerte](<a href="https://zupimages.net/viewer.php?id=23/39/qv1g.png"><img src="https://zupimages.net/up/23/39/qv1g.png" alt="" /></a>)
+
+
+
+
+Enfin il ne reste plus qu'à mettre ses information de mail (de "x" à "y"), et les informations de connexion de x.
+
+
+L'adresse mail x a étée crée spécialement pour l'occasion, et je conseille son usage. Donc il ne faut modifier que le destinataire en mettant son adresse mail.
+
+
+
+
